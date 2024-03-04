@@ -36,7 +36,7 @@ int writeFile(string filename)
 
 int readFile(string filename)
 {
-    int N;
+    int N=0;
     ifstream ifs;
     int eid;
     string ename, dname;
