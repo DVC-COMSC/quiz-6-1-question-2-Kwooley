@@ -31,7 +31,7 @@ int writeFile(string filename)
         ofs << eid << "\t" << ename << "\t" << dname << "\t" << salary << endl;
     }
     ofs.close();
-    return 0;
+    return N;
 }
 
 int readFile(string filename)
