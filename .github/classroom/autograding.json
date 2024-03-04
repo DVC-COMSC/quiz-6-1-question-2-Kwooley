@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Compile and Run for Reading",
+      "setup": "",
+      "run": "make clean && make test < data.txt",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "employee.txt test",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -rP",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
